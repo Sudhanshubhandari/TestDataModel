@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="./vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Test Data Generation</title>
+    <!-- Use relative path and add crossorigin attribute for modules -->
+    <link rel="modulepreload" href="./src/main.tsx" crossorigin="anonymous" />
+    <!-- DNS prefetch and preconnect for external resources -->
+    <link rel="dns-prefetch" href="https://static.naukimg.com" />
+    <link rel="dns-prefetch" href="https://images.unsplash.com" />
+    <link rel="preconnect" href="https://static.naukimg.com" crossorigin="anonymous" />
+    <link rel="preconnect" href="https://images.unsplash.com" crossorigin="anonymous" />
+    <!-- Meta tags for SEO and description -->
+    <meta name="description" content="Validation Builder - Configure form validations easily" />
+    <meta name="theme-color" content="#ffffff" />
+    <!-- Prevent flash of unstyled content -->
+    <link rel="stylesheet" href="./src/index.css" />
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="./src/main.jsx"></script>
+  </body>
+</html>

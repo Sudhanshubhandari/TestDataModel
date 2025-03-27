@@ -9,7 +9,10 @@ export default function App() {
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<HomePage />} />
-        <Route path="/particular-validation" element={<Navigate to="/particular-validation/form?type=text" />} />
+        <Route
+          path="/particular-validation"
+          element={<Navigate to="/particular-validation/form?type=text" />}
+        />
         <Route path="/particular-validation/form" element={<ParticularValidation />} />
         <Route path="/profile-validation" element={<ProfileValidation />} />
       </Routes>

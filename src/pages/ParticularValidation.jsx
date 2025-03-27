@@ -47,7 +47,7 @@ export default function ParticularValidation() {
       {/* Logo in top right */}
       <div className="absolute top-4 right-4 md:top-8 md:right-8">
         <img
-          src="https://static.naukimg.com/s/7/123/i/naukri-hiring-suite.6d08b072.svg"
+          // src="https://static.naukimg.com/s/7/123/i/naukri-hiring-suite.6d08b072.svg"
           alt="Naukri Hiring Suite"
           className="h-12 md:h-16 w-auto"
         />
